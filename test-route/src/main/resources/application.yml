@@ -1,0 +1,15 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: test-route
+  datasource:
+    username: root
+    password: mysql123
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    hikari.driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
