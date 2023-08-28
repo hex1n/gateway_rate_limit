@@ -1,6 +1,5 @@
-package com.dlwlrma.gateway.conf;
+package com.dlwlrma.gateway.filter;
 
-import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RRateLimiter;
 import org.redisson.api.RateIntervalUnit;
 import org.redisson.api.RateType;
